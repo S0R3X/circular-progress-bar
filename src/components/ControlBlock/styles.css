@@ -1,0 +1,10 @@
+.cotrol-block {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.cotrol-text {
+	font-size: 20px;
+	font-weight: 600;
+}

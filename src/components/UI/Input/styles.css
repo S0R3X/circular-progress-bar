@@ -1,0 +1,10 @@
+.number-input {
+  padding: 4px;
+  border: 2px solid var(--color-dark, #000);
+  border-radius: 20px;
+  font-size: 22px;
+  width: 60px;
+  outline: none;
+  text-align: center; 
+  font-weight: bold; 
+}

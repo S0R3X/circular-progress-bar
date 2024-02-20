@@ -1,0 +1,34 @@
+.progress-circular {
+  --progressBarFillColor: var(--color-main, #403dff);
+  --progressBarBgColor: var(--color-grey, #ccc);
+
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-circular::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: var(--color-light, #fff);
+}
+
+.animation-progress-circular {
+  animation: rotateAnimation 7s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
