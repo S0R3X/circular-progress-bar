@@ -2,7 +2,7 @@
 
 ![Пример](https://github.com/S0R3X/circular-progress-bar/assets/105566101/3e365212-7c41-4e04-a985-65562039fcfc)
 
-[Ссылка на развернутую версию](https://s0r3x.github.io/circular-progress-bar/)
+[Ссылка на задеплоенную версию](https://s0r3x.github.io/circular-progress-bar/)
 
 ---
 
